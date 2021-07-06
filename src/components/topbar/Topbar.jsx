@@ -2,9 +2,9 @@ import "./topbar.scss";
 import PersonIcon from '@material-ui/icons/Person';
 import MailIcon from '@material-ui/icons/Mail';
 
-function Topbar() {
+export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
-        <div className="topbar">
+        <div className={ "topbar " + (menuOpen && "active")>
             <div className="wrapper">
                 <div className="left">
                     <a href="#works" className="logo">Arthur Bates</a>
@@ -18,11 +18,15 @@ function Topbar() {
                     </div>
                 </div>
                 <div className="right">
-
+                    <div className="hamburger">
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
+                    </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Topbar

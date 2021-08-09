@@ -25,6 +25,19 @@
     }
   }
 
+  input{
+    border: none;
+    background-color: rgb(227, 227, 227);
+    text-align:center;
+ }
+
+ textarea{
+  background-color: rgb(227, 227, 227);
+  border: none;
+  text-align:center;
+}
+ 
+
   @media only screen and (max-width: 1200px) {
     img {
       width: 80%;
@@ -92,7 +105,7 @@
         width: 150px;
         height: 30px;
         color: white;
-        background-color: rgb(5, 74, 165);
+        background-color: rgb(65, 65, 169);
         border: none;
         border-radius: 10px;
         font-weight: 500;
@@ -104,7 +117,7 @@
       }
 
       span {
-        color: green;
+        color: rgb(132, 132, 132);
       }
     }
   }

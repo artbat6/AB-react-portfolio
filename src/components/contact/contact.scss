@@ -31,8 +31,20 @@
     }
     .right {
       width: 50%;
-      background-color: rgb(206, 219, 255);
+      // background-color: rgb(206, 219, 255);
     }
+    input{
+      border: none;
+      background-color: rgb(227, 227, 227);
+      text-align:center;
+      
+   }
+
+   textarea{
+    background-color: rgb(227, 227, 227);
+    border: none;
+    text-align:center;
+ }
   }
 
   .right {
@@ -80,7 +92,7 @@
         width: 150px;
         height: 30px;
         color: white;
-        background-color: crimson;
+        background-color: rgb(5, 74, 165);
         border: none;
         border-radius: 10px;
         font-weight: 500;

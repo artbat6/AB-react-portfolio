@@ -112,9 +112,10 @@ export const featuredPortfolio = [
   export const designPortfolio = [
     {
       id: 1,
-      title: "Visual Art Website",
+      title: "My Visual Art Website",
       img:
         "./assets/cosmicHair.png",
+      href: "https://www.artybats.com",
     },
     // {
     //   id: 2,

@@ -61,7 +61,7 @@
         position: absolute;
         font-size: 20px;
       }
-
+      
       img {
         width: 100%;
         height: 100%;
@@ -69,15 +69,19 @@
         z-index: 1;
       }
 
-      // .title:hover {
-      //   display: none;
-      // }
+      .titleText {
+        display:none;
+      }
+
 
       &:hover {
         background-color: $mainColor;
         img {
           opacity: 0.2;
           z-index: 0;
+        }
+        .titleText {
+          display: block;
         }
       }
     }

@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import PersonIcon from "@material-ui/icons/Person";
+import CallIcon from "@material-ui/icons/Call";
 import MailIcon from "@material-ui/icons/Mail";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             Arthur Bates
           </a>
           <div className="itemContainer">
-            <PersonIcon className="icon" />
+            <CallIcon className="icon" />
             <span>701 415 8812</span>
           </div>
           <div className="itemContainer">

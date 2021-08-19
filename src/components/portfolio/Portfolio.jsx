@@ -21,10 +21,10 @@ export default function Portfolio() {
       id: "web",
       title: "Guided by Academia",
     },
-    {
-      id: "mobile",
-      title: "Tutorials",
-    },
+    // {
+    //   id: "mobile",
+    //   title: "Tutorials",
+    // },
     {
       id: "design",
       title: "Design",

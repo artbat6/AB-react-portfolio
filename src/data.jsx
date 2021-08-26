@@ -2,6 +2,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "A Storm is Brewing",
+      description: "Interactive front-end project using HTML, JavaScript, Materialize, two server-side API's, and client-side storage.",
       img:
         "./assets/storm.png",
       href: "https://artbat6.github.io/Project-1",

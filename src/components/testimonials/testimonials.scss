@@ -1,6 +1,8 @@
 @import "../../global.scss";
 
 .testimonials {
+  background-image: linear-gradient(rgb(255, 254, 254), rgb(179, 179, 179));
+
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -32,6 +34,7 @@
     }
 
     .card {
+      background-color: white;
       width: 250px;
       height: 70%;
       border-radius: 10px;

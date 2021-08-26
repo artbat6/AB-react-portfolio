@@ -1,13 +1,17 @@
 @import "../../global.scss";
 
 .portfolio {
-  background-color: rgb(157, 250, 187);
+  // background-color: rgb(157, 250, 187);
+  background-image: linear-gradient(rgb(234, 255, 227), rgb(143, 255, 168));
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 
   h1 {
-    margin-top: 10px;
+    padding-bottom: 20px;
+    // margin-top: 10px;
+    // margin-bottom: 20px;
     font-size: 50px;
 
     @include mobile {
@@ -16,8 +20,7 @@
   }
 
   ul {
-    margin: 10px;
-    padding: 0;
+    padding: 10;
     list-style: none;
     display: flex;
 
@@ -30,11 +33,11 @@
 
   .container {
     margin-top: 20px;
-    width: 70%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 
     @include mobile {
@@ -42,8 +45,8 @@
     }
 
     .item {
-      width: 300px;
-      height: 190px;
+      width: 400px;
+      height: 260px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
       margin: 10px 20px;
@@ -55,7 +58,7 @@
       position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
-      overflow: hidden;
+      // overflow: hidden;
       object-fit: cover;
 
       @include mobile {
@@ -81,6 +84,7 @@
         height: 100%;
         object-fit: cover;
         z-index: 1;
+        overflow: hidden;
       }
 
       .titleText {

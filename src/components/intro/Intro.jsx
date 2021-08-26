@@ -28,6 +28,18 @@ export default function Intro() {
           <h3>
             Independent <span ref={textRef}></span>
           </h3>
+          <div className="brand">
+          <p>Front-end Developer learning to use new methods to solve problems in various frameworks of ever-evolving technologies.</p>
+          </div>
+          <div className="skills">
+          <h4>Some of my skills include:</h4>
+          <p>HTML, CSS, JavaScript, jQuery, React, Bootstrap, Materialize, Node, Express, Web API, GitHub, Heroku, Adobe Photoshop, Adobe Illustrator, Interpersonal Skills, Work Ethic, Customer Service,
+Adaptability, Dependability
+
+
+</p>
+
+          </div>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="arrow" />

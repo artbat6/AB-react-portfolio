@@ -1,6 +1,8 @@
 import "./topbar.scss";
 import CallIcon from "@material-ui/icons/Call";
 import MailIcon from "@material-ui/icons/Mail";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -16,7 +18,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <MailIcon className="icon" />
-            <span>arthurbatesdev@gmail.com</span>
+            <a href="mailto:arthurbatesdev@gmail.com">arthurbatesdev@gmail.com</a>
+          </div>
+          <div className="itemContainer">
+            <GitHubIcon className="icon" />
+            <a href="https://github.com/artbat6">github.com/artbat6</a>
+          </div>
+          <div className="itemContainer">
+            <LinkedInIcon className="icon" />
+            <a href="https://www.linkedin.com/in/arthur-bates-dev/">linkedin.com/in/arthur-bates-dev</a>
           </div>
         </div>
         <div className="right">

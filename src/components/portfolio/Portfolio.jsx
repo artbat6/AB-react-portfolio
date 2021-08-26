@@ -19,7 +19,7 @@ export default function Portfolio() {
     },
     {
       id: "web",
-      title: "Guided by Academia",
+      title: "Bootcamp Challenges",
     },
     // {
     //   id: "mobile",

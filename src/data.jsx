@@ -6,20 +6,20 @@ export const featuredPortfolio = [
         "./assets/storm.png",
       href: "https://artbat6.github.io/Project-1",
     },
-    {
-      id: 2,
-      title: "Rate Your Bootcamp",
-      img:
-        "./assets/rate.png",
-      href: "https://rate-your-bootcamp.herokuapp.com",
-    },
-    {
-      id: 3,
-      title: "REX Rescue Express",
-      img:
-        "./assets/rex.png",
-      href: "https://still-plains-06700.herokuapp.com",
-    },
+    // {
+    //   id: 2,
+    //   title: "Rate Your Bootcamp",
+    //   img:
+    //     "./assets/rate.png",
+    //   href: "https://rate-your-bootcamp.herokuapp.com",
+    // },
+    // {
+    //   id: 3,
+    //   title: "REX Rescue Express",
+    //   img:
+    //     "./assets/rex.png",
+    //   href: "https://still-plains-06700.herokuapp.com",
+    // },
     // {
     //   id: 4,
     //   title: "Relax Mobile App",

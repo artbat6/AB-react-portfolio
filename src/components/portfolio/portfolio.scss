@@ -41,8 +41,8 @@
     }
 
     .item {
-      width: 220px;
-      height: 150px;
+      width: 400px;
+      height: 260px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
       margin: 10px 20px;
@@ -53,6 +53,7 @@
       position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
+      overflow: hidden;
 
       @include mobile {
         width: 130px;

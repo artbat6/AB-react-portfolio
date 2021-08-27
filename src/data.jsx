@@ -127,7 +127,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "My Visual Art Website",
-      description: "I have been a visual artist for most of my life.  I look at painting as a problem solving challenge and I have worked very hard to create artwork that makes me happy.  I feel that, as my coding skills develop, my artistic skills (showcased here) will be extremely useful when overlapping into my front-end web-development.",
+      description: "I look at painting as a problem solving challenge and I have worked very hard to create artwork that makes me happy.  I feel that, as my coding skills develop, my artistic skills (showcased here) will be extremely useful when overlapping into my front-end web-development.",
       img:
         "./assets/cosmicHair.png",
       href: "https://www.artybats.com",

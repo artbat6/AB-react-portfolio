@@ -2,7 +2,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "A Storm is Brewing",
-      description: "Interactive front-end project using HTML, JavaScript, Materialize, two server-side API's, and client-side storage.",
+      description: "Interactive front-end project where the user can search for a city and receive information on the weather forecast and breweries for that area. Created using HTML, JavaScript, Materialize, two server-side API's, and client-side storage.",
       img:
         "./assets/storm.png",
       href: "https://artbat6.github.io/Project-1",
@@ -45,33 +45,38 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Javascript Quiz",
+      description: "Very basic timed JavaScript quiz where the user answers multiple choice questions.  This app runs in the browser and uses JavaScript to dynamically update the HTML and CSS.",
       img: "./assets/quiz.png",
       href: "https://artbat6.github.io/shortJavaScriptQuiz/",
     },
     {
       id: 2,
       title: "Password Generator",
+      description: "The user enters a desired password length and is prompted for what character types to include. These prompts are validated so that at least one character type is chosen and then a password is created that matches the criteria. Created with HTML, CSS, and JavaScript.",
       img: "./assets/password.png",
       href: "https://artbat6.github.io/MyPasswordGenerator/",
     },
     {
       id: 3,
       title: "Work Day Scheduler",
+      description: "Simple calendar application that allows a user to save events for each hour of the day.  Uses JavaScript and Moment.js to store events in user’s local storage. Created with HTML and styled with CSS.",
       img: "./assets/planner.png",
       href: "https://artbat6.github.io/myDailyPlanner/",
     },
     {
       id: 4,
       title: "Weather Dashboard",
+      description: "User searches by city and accesses the weather forecast for that area from a third-party API.  The app returns a five-day weather forecast including temperature, rain, humidity, wind speed, UV index, and the corresponding dates. Created with HTML, CSS, JavaScript, and the OpenWeatherMap API.",
       img: "./assets/weather.png",
       href: "https://artbat6.github.io/myWeatherDashboard/",
     },
-    {
-      id: 5,
-      title: "Note Taker",
-      img: "./assets/note.png",
-      href: "https://arthur-note-taker.herokuapp.com/",
-    },
+    // {
+    //   id: 5,
+    //   title: "Note Taker",
+    //   description: "",
+    //   img: "./assets/note.png",
+    //   href: "https://arthur-note-taker.herokuapp.com/",
+    // },
     // {
     //   id: 6,
     //   title: "Web Banking App",
@@ -122,6 +127,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "My Visual Art Website",
+      description: "I have been a visual artist for most of my life.  I look at painting as a problem solving challenge and I have worked very hard to create artwork that makes me happy.  I feel that, as my coding skills develop, my artistic skills (showcased here) will be extremely useful when overlapping into my front-end web-development.",
       img:
         "./assets/cosmicHair.png",
       href: "https://www.artybats.com",

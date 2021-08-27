@@ -31,11 +31,14 @@ export default function Testimonials() {
   return (
     <div className="testimonials" id="testimonials">
       <h1>Testimonials</h1>
+      <div className="left2">
+        <img src="assets/down-eyes.png" alt="" />
+      </div>
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
             <div className="top">
-              <img src="assets/right-arrow.png" className="left" alt="" />
+              {/* <img src="assets/right-arrow.png" className="left" alt="" /> */}
               <img className="user" src={d.img} alt="" />
               <img className="right" src={d.icon} alt="" />
             </div>

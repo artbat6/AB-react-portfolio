@@ -78,7 +78,7 @@ export default function Portfolio() {
             </a>
             <h3 className="titleText"> {d.title}</h3>
             <p className="description"> {d.description}</p>
-          </div>
+            </div>
         ))}
       </div>
     </div>

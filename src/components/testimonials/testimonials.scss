@@ -15,6 +15,7 @@
 
   h1 {
     font-size: 50px;
+    height: 60px;
 
     @include mobile{
       font-size: 30px;
@@ -25,8 +26,8 @@
     display: flex;
     justify-content: center;
     width: 50%;
-    margin-top: 15px;
-    padding-top: 20px;
+    // margin-top: 15px;
+    // padding-top: 20px;
 
     @include mobile{
       width: 100%;;

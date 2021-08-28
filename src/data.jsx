@@ -5,7 +5,7 @@ export const featuredPortfolio = [
       description: "Interactive front-end project where the user can search for a city and receive information on the weather forecast and breweries for that area. Created using HTML, JavaScript, Materialize, two server-side API's, and client-side storage.",
       img:
         "./assets/storm.png",
-      href: "https://artbat6.github.io/Project-1",
+      href: "https://artbat6.github.io/A-Storm-is-Brewing/",
     },
     // {
     //   id: 2,
@@ -54,21 +54,21 @@ export const featuredPortfolio = [
       title: "Password Generator",
       description: "The user enters a desired password length and is prompted for what character types to include. These prompts are validated so that at least one character type is chosen and then a password is created that matches the criteria. Created with HTML, CSS, and JavaScript.",
       img: "./assets/password.png",
-      href: "https://artbat6.github.io/MyPasswordGenerator/",
+      href: "https://artbat6.github.io/Random-Password-Generator",
     },
     {
       id: 3,
       title: "Work Day Scheduler",
       description: "Simple calendar application that allows a user to save events for each hour of the day.  Uses JavaScript and Moment.js to store events in user’s local storage. Created with HTML and styled with CSS.",
       img: "./assets/planner.png",
-      href: "https://artbat6.github.io/myDailyPlanner/",
+      href: "https://artbat6.github.io/Work-Day-Scheduler/",
     },
     {
       id: 4,
       title: "Weather Dashboard",
       description: "User searches by city and accesses the weather forecast for that area from a third-party API.  The app returns a five-day weather forecast including temperature, rain, humidity, wind speed, UV index, and the corresponding dates. Created with HTML, CSS, JavaScript, and the OpenWeatherMap API.",
       img: "./assets/weather.png",
-      href: "https://artbat6.github.io/myWeatherDashboard/",
+      href: "https://artbat6.github.io/Weather-Dashboard/",
     },
     // {
     //   id: 5,

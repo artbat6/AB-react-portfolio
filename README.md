@@ -6,7 +6,7 @@ A portfolio of my projects so far.  I made the basic layout of the portfolio by 
 
 This app is deployed through Heroku, please follow this link to view it:
 
-ab-react-portfolio.herokuapp.com(ab-react-portfolio.herokuapp.com)
+https://ab-react-portfolio.herokuapp.com
 
 ### Author
 

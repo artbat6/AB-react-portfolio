@@ -79,7 +79,7 @@ export default function Portfolio() {
             </a>
             <h3 className="titleText"> {d.title}</h3>
             <p className="description"> {d.description}</p>
-            <a href={d.githref} className="git">{d.github}</a>
+            <a href={d.githref} target="_blank" className="git">{d.github}</a>
          </div>
         ))}
       </div>

@@ -6,6 +6,8 @@ export const featuredPortfolio = [
       img:
         "./assets/storm.png",
       href: "https://artbat6.github.io/A-Storm-is-Brewing/",
+      github: "Storm Github",
+      githref:"https://github.com/artbat6/A-Storm-is-Brewing",
     },
     // {
     //   id: 2,
@@ -48,7 +50,8 @@ export const featuredPortfolio = [
       description: "Very basic timed JavaScript quiz where the user answers multiple choice questions.  This app runs in the browser and uses JavaScript to dynamically update the HTML and CSS.",
       img: "./assets/quiz.png",
       href: "https://artbat6.github.io/shortJavaScriptQuiz/",
-      github: "",
+      github: "Quiz Github",
+      githref:"https://github.com/artbat6/shortJavaScriptQuiz",
     },
     {
       id: 2,
@@ -56,7 +59,9 @@ export const featuredPortfolio = [
       description: "The user enters a desired password length and is prompted for what character types to include. These prompts are validated so that at least one character type is chosen and then a password is created that matches the criteria. Created with HTML, CSS, and JavaScript.",
       img: "./assets/password.png",
       href: "https://artbat6.github.io/Random-Password-Generator",
-      github: "https://github.com/artbat6/Random-Password-Generator",
+      github: "Password Github",
+      githref:"https://github.com/artbat6/Random-Password-Generator",
+
     },
     {
       id: 3,
@@ -64,7 +69,9 @@ export const featuredPortfolio = [
       description: "Simple calendar application that allows a user to save events for each hour of the day.  Uses JavaScript and Moment.js to store events in user’s local storage. Created with HTML and styled with CSS.",
       img: "./assets/planner.png",
       href: "https://artbat6.github.io/Work-Day-Scheduler/",
-      github: "https://github.com/artbat6/Work-Day-Scheduler",
+      github: "Scheduler Github",
+      githref:"https://github.com/artbat6/Work-Day-Scheduler",
+
     },
     {
       id: 4,
@@ -72,6 +79,9 @@ export const featuredPortfolio = [
       description: "User searches by city and accesses the weather forecast for that area from a third-party API.  The app returns a five-day weather forecast including temperature, rain, humidity, wind speed, UV index, and the corresponding dates. Created with HTML, CSS, JavaScript, and the OpenWeatherMap API.",
       img: "./assets/weather.png",
       href: "https://artbat6.github.io/Weather-Dashboard/",
+      github: "Weather Github",
+      githref:"https://github.com/artbat6/Weather-Dashboard",
+
     },
     // {
     //   id: 5,

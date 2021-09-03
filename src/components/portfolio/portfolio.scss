@@ -7,6 +7,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  
 
   h1 {
     padding-bottom: 20px;
@@ -56,15 +57,21 @@
       margin: 10px 20px;
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: center;
       flex-direction: column;
       color: white;
-      position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
       overflow: hidden;
       object-fit: cover;
-
+///////////////////
+      // background-color: $mainColor;
+      //   img {
+      //     display: none;
+      //     opacity: 0.2;
+      //     z-index: 0;
+      //   }
+//////////////////////
       @include mobile {
         padding-top:15px;
         width: 300px;
@@ -76,7 +83,7 @@
       }
 
       h3 {
-        position: absolute;
+        margin-top: 10px;
         font-size: 2vw;
         height: 20%;
 
@@ -86,21 +93,24 @@
       }
 
       p {
-        margin: auto;
+        margin-top: 10px;
         font-size: 1vw;
-        // margin: 5px 5px 5px 5px;
         text-align: center;
-        // margin-bottom: 20px;
-        overflow: hidden;
         height: 70%;
         width: 90%;
         align-self:center;
-        // align-self:flex-end;
 
         @include mobile {
           font-size: 10px;
           align-self:center;
         }
+      }
+
+      .git {
+        text-decoration: none;
+        z-index: 1;
+        color:rgb(255, 255, 255);
+        margin-bottom: 20px;
       }
 
       @media screen and (min-width: 1220px) {
@@ -115,20 +125,12 @@
         object-fit: cover;
         z-index: 1;
         overflow: hidden;
-
+        margin: auto;
+        
         @include mobile {
           display: none;
         }
       }
-
-      // .textHolder {
-      //   background-color: $mainColor;
-      //   height: 700px;
-      //   display: flex;
-      //   flex-direction: column;
-      //   align-content: center;
-      //   justify-content: space-between;
-      // }
 
       .titleText {
         display:none;
@@ -144,23 +146,31 @@
           display: block;
         }
       }
+      .git {
+        display: none;
+        
+        @include mobile {
+          display: block;
+        }
+      }
 
 
       &:hover {
         background-color: $mainColor;
         img {
+          display:none;
           opacity: 0.2;
           z-index: 0;
         }
         .titleText {
           display: flex;
-          // margin: auto;
         }
         .description {
           display: flex;
           align-self:center;
-          // margin: auto;
-          
+        }
+        .git {
+          display: flex;
         }
       }
     }

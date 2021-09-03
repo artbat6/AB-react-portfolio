@@ -22,11 +22,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <GitHubIcon className="icon" />
-            <a href="https://github.com/artbat6">github.com/artbat6</a>
+            <a href="https://github.com/artbat6">github</a>
           </div>
           <div className="itemContainer">
             <LinkedInIcon className="icon" />
-            <a href="https://www.linkedin.com/in/arthur-bates-dev/">linkedin.com/in/arthur-bates-dev</a>
+            <a href="https://www.linkedin.com/in/arthur-bates-dev/">linkedin</a>
           </div>
         </div>
         <div className="right">

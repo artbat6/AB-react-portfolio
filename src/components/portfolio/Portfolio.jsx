@@ -73,6 +73,7 @@ export default function Portfolio() {
       
       <div className="container">
         {data.map((d) => (
+        <a href={d.href} alt="" target="_blank">
           <div className="item">
             <a href={d.href} alt="" target="_blank">
               <img src={d.img} alt="" />
@@ -81,6 +82,7 @@ export default function Portfolio() {
             <p className="description"> {d.description}</p>
             <a href={d.githref} target="_blank" className="git">{d.github}</a>
          </div>
+        </a>
         ))}
       </div>
     

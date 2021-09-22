@@ -157,13 +157,18 @@
 
       &:hover {
         background-color: $mainColor;
+        a {
+          display:block;
+          
+        }
         img {
           display:none;
           opacity: 0.2;
-          z-index: 0;
+         
         }
         .titleText {
           display: flex;
+         
         }
         .description {
           display: flex;

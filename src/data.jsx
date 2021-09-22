@@ -3,9 +3,8 @@ export const featuredPortfolio = [
       id: 1,
       title: "A Storm is Brewing",
       description: "Interactive front-end project where the user can search for a city and receive information on the weather forecast and breweries for that area. Created using HTML, JavaScript, Materialize, two server-side API's, and client-side storage.",
-      img:
-        "./assets/storm.png",
       href: "https://artbat6.github.io/A-Storm-is-Brewing/",
+       img: "./assets/storm.png",
       github: "github.com/artbat6/A-Storm-is-Brewing",
       githref:"https://github.com/artbat6/A-Storm-is-Brewing",
     },

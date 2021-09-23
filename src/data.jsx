@@ -82,13 +82,16 @@ export const featuredPortfolio = [
       githref:"https://github.com/artbat6/Weather-Dashboard",
 
     },
-    // {
-    //   id: 5,
-    //   title: "Note Taker",
-    //   description: "",
-    //   img: "./assets/note.png",
-    //   href: "https://arthur-note-taker.herokuapp.com/",
-    // },
+    {
+      id: 5,
+      title: "Memory Game",
+      description: "A simple game of memory where the user matches pairs of images.  Made with HTML, CSS, and JavaScript",
+      img: "./assets/memory.png",
+      href: "https://artbat6.github.io/memory-game/",
+      github: "github.com/artbat6/memory-game",
+      githref:"https://github.com/artbat6/memory-game",
+
+    },
     // {
     //   id: 6,
     //   title: "Web Banking App",

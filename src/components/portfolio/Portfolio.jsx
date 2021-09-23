@@ -19,7 +19,7 @@ export default function Portfolio() {
     },
     {
       id: "web",
-      title: "Bootcamp Challenges",
+      title: "Projects",
     },
     // {
     //   id: "mobile",

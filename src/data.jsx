@@ -45,6 +45,16 @@ export const featuredPortfolio = [
   export const webPortfolio = [
     {
       id: 1,
+      title: "Memory Game",
+      description: "A simple game of memory where the user matches pairs of images.  Made with HTML, CSS, and JavaScript",
+      img: "./assets/memory.png",
+      href: "https://artbat6.github.io/memory-game/",
+      github: "github.com/artbat6/memory-game",
+      githref:"https://github.com/artbat6/memory-game",
+
+    },
+    {
+      id: 2,
       title: "Javascript Quiz",
       description: "Very basic timed JavaScript quiz where the user answers multiple choice questions.  This app runs in the browser and uses JavaScript to dynamically update the HTML and CSS.",
       img: "./assets/quiz.png",
@@ -53,7 +63,7 @@ export const featuredPortfolio = [
       githref:"https://github.com/artbat6/shortJavaScriptQuiz",
     },
     {
-      id: 2,
+      id: 3,
       title: "Password Generator",
       description: "The user enters a desired password length and is prompted for what character types to include. These prompts are validated so that at least one character type is chosen and then a password is created that matches the criteria. Created with HTML, CSS, and JavaScript.",
       img: "./assets/password.png",
@@ -63,7 +73,7 @@ export const featuredPortfolio = [
 
     },
     {
-      id: 3,
+      id: 4,
       title: "Work Day Scheduler",
       description: "Simple calendar application that allows a user to save events for each hour of the day.  Uses JavaScript and Moment.js to store events in user’s local storage. Created with HTML and styled with CSS.",
       img: "./assets/planner.png",
@@ -73,7 +83,7 @@ export const featuredPortfolio = [
 
     },
     {
-      id: 4,
+      id: 5,
       title: "Weather Dashboard",
       description: "User searches by city and accesses the weather forecast for that area from a third-party API.  The app returns a five-day weather forecast including temperature, rain, humidity, wind speed, UV index, and the corresponding dates. Created with HTML, CSS, JavaScript, and the OpenWeatherMap API.",
       img: "./assets/weather.png",
@@ -82,16 +92,7 @@ export const featuredPortfolio = [
       githref:"https://github.com/artbat6/Weather-Dashboard",
 
     },
-    {
-      id: 5,
-      title: "Memory Game",
-      description: "A simple game of memory where the user matches pairs of images.  Made with HTML, CSS, and JavaScript",
-      img: "./assets/memory.png",
-      href: "https://artbat6.github.io/memory-game/",
-      github: "github.com/artbat6/memory-game",
-      githref:"https://github.com/artbat6/memory-game",
-
-    },
+    
     // {
     //   id: 6,
     //   title: "Web Banking App",

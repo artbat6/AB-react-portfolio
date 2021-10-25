@@ -35,10 +35,8 @@ export default function Intro() {
           <h4>Some of my skills include:</h4>
           <p>HTML, CSS, JavaScript, jQuery, React, 
             Bootstrap, Materialize, Node, Express, Web API, 
-            GitHub, Heroku, Adobe Photoshop, Adobe Illustrator, 
-            Interpersonal Skills, Work Ethic, Customer Service,
-            Adaptability, Dependability
-
+            GitHub, Heroku, Adobe Photoshop, Adobe Illustrator, and Procreate. 
+            
 
 </p>
 

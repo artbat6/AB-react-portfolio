@@ -29,7 +29,7 @@ export default function Intro() {
             Independent <span ref={textRef}></span>
           </h3>
           <div className="brand">
-          <p>Front-end Developer learning to use new methods to solve problems in various frameworks of ever-evolving technologies.</p>
+          <p>Visual Artist turned Front-end Developer learning to use new methods to solve problems in various frameworks of ever-evolving technologies.</p>
           </div>
           <div className="skills">
           <h4>Some of my skills include:</h4>
